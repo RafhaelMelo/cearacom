@@ -62,7 +62,7 @@
     <icon src="res/gsi-base-icon.png" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="res/screen/splash-screen-padrao.png"  />
+    <gap:splash src="res/splash-screen-padrao.png"  />
 
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
