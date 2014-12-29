@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cearacom.www" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cearacom</name>
+    <description>
+        Aplicativo referente ao site da empresa.
+    </description>
+    <author email="atendimento@imaginecomunicacao.com.br" href="http://www.imaginecomunicacao.com.br">
+        Imagine Comunicação Digital
+    </author>
+	
+	<preference name="SplashScreen" value="splash" />
+	<preference name="SplashScreenDelay" value="8000" />
+	<splash src="gsi-base-splash.png" />
+	
+	<preference name="permissions" value="none" />
+	<preference name="fullscreen" value="true" />
+	<preference name="Orientation" value="portrait" />
+	
+	<icon src="gsi-base-icon.png" />
+	
+	<feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+	
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
