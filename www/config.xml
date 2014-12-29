@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.cearacom.www" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Cearacom</name>
+    <description>
+        Aplicativo referente ao site da empresa.
+    </description>
+    <author email="atendimento@imaginecomunicacao.com.br" href="http://www.imaginecomunicacao.com.br">
+        Imagine Comunicação Digital
+    </author>
+
+	
+	
+	<preference name="permissions" value="none" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="7" />
+    <preference name="android-installLocation" value="auto" />
+	
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	
+	
+	<icon src="gsi-base-icon.png" />
+	
+	<gap:splash src="drawable-port-hdpi.png" />
+	
+    
+	
+	<access origin="*" />
+</widget>
