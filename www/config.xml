@@ -63,7 +63,7 @@
 
     <!-- Define app splash screen for each platform. -->
 		
-		 <gap:splash src="res/splash-screen-padrao.png"  />
+	<gap:splash src="res/screen/android/screen-xhdpi-landscape.png"  />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
 		<string>100</string>
