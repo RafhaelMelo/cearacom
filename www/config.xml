@@ -4,7 +4,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.imagine.cearacom"
-        version   = "1.0.0">
+        version   = "1.0.0"
+        android-versionCode="1.0.0"
+	ios-CFBundleVersion="1.0.0" >
 
     <name>CEARACOM Provedor de Tecnologias</name>
 
@@ -62,10 +64,6 @@
     <!-- Define app splash screen for each platform. -->
 		
 	<gap:splash src="res/screen-xhdpi-portrait.png"  />
-
-    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-		<string>100</string>
-    </gap:config-file>
 
     <!--
         Define access to external domains.
