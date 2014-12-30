@@ -58,9 +58,6 @@
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
 
-    <!-- Define app icon for each platform. -->
-    <icon src="res/gsi-base-icon.png" />
-
     <!-- Define app splash screen for each platform. -->
 		
 	<gap:splash src="res/screen-xhdpi-portrait.png"  />
